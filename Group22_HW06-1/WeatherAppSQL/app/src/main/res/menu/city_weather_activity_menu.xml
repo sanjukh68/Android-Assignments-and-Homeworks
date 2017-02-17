@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/save_city"
+        android:title="@string/save_city"
+        android:showAsAction="never"/>
+    <item android:id="@+id/settings"
+        android:title="@string/title_activity_preference"
+        android:showAsAction="never"/>
+</menu>

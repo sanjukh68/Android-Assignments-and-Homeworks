@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tvs.expensemanagement.SelectPhoto"
+    android:background="@color/def_background"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
+        android:layout_marginBottom="@dimen/default_element_margin">
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_perm_media_white_24dp"
+            android:id="@+id/imageView"
+            android:layout_weight="5"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_photo_heading"
+            android:id="@+id/textView7"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:layout_weight="90"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:layout_weight="5"
+            android:layout_gravity="center_vertical"
+            android:background="@color/def_background"
+            android:textColor="@color/primary_text_default_material_dark" />
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:layout_marginTop="@dimen/default_element_margin" >
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/gallery1"
+            android:src="@mipmap/ic_insert_drive_file_white_24dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/primary_text_default_material_light" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/gallery"
+            android:id="@+id/gallery2"
+            android:layout_gravity="center|top"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:padding="5dp"
+            android:background="@color/background_floating_material_dark"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:layout_marginTop="@dimen/default_element_margin">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/clickCamera1"
+            android:src="@mipmap/ic_camera_enhance_white_24dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/primary_text_default_material_light" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/camera"
+            android:id="@+id/clickCamera2"
+            android:layout_gravity="center|top"
+            android:textColor="@color/primary_text_default_material_dark"
+            android:padding="5dp"
+            android:background="@color/background_floating_material_dark"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

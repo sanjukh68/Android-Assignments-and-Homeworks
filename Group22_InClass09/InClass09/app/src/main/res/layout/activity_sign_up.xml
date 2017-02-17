@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tvs.inclass09.SignUpActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/fName"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/fName"
+        android:layout_alignRight="@+id/fName"
+        android:layout_alignEnd="@+id/fName"
+        android:layout_marginTop="13dp"
+        android:id="@+id/lName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/email"
+        android:layout_alignEnd="@+id/email"
+        android:id="@+id/password1"
+        android:hint="Choose Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="23dp"
+        android:id="@+id/password2"
+        android:layout_below="@+id/password1"
+        android:layout_alignLeft="@+id/password1"
+        android:layout_alignStart="@+id/password1"
+        android:hint="Repeat Password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:layout_above="@+id/password1"
+        android:layout_alignLeft="@+id/lName"
+        android:layout_alignStart="@+id/lName"
+        android:layout_marginBottom="19dp" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password2"
+        android:layout_alignLeft="@+id/password2"
+        android:layout_alignStart="@+id/password2"
+        android:layout_marginTop="23dp"
+        android:id="@+id/cancelSignUp" />
+
+    <Button
+        android:text="Sign Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startSignup"
+        android:layout_alignBaseline="@+id/cancelSignUp"
+        android:layout_alignBottom="@+id/cancelSignUp"
+        android:layout_alignRight="@+id/password2"
+        android:layout_alignEnd="@+id/password2" />
+</RelativeLayout>

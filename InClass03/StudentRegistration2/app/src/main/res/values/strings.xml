@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StudentRegistration</string>
+    <string name="stringId_name">Name</string>
+    <string name="stringIdEmail">Email</string>
+    <string name="stringIdSIS">SIS</string>
+    <string name="stringIdBIO">BIO</string>
+    <string name="stringIdCS">CS</string>
+    <string name="stringIdOthers">Others</string>
+    <string name="stringIdMood">Your current mood:</string>
+    <string name="stringIdStudentInfo">Student Information</string>
+    <string name="stringIdDepartment">Department</string>
+    <string name="stringIdMoodDisplay">Mood</string>
+    <string name="stringIdSave">Save</string>
+</resources>

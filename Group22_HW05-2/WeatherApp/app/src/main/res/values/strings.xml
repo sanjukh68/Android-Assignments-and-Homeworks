@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="city_hint">City (i.e. Charlotte)</string>
+    <string name="state_hint">State (i.e. NC)</string>
+    <string name="submit">Submit</string>
+    <string name="no_favourites">There is no city in your Favourites</string>
+    <string name="city_weather">City Weather</string>
+    <string name="loding_data_msg">Loading Hourly Data</string>
+    <string name="city_name_error">City name is empty or incorrect</string>
+    <string name="state_name_error">State name is empty or incorrect</string>
+    <string name="hourly_data">Hourly Data</string>
+    <string name="current_location">Current Location: </string>
+    <string name="max_temp">Max Temperature:</string>
+    <string name="min_temp">Min Temperature:</string>
+    <string name="feels_like">Feels Like:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="dew_point">Dew Point:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="clouds">Clouds:</string>
+    <string name="winds">Winds:</string>
+    <string name="city_deleted">City Deleted</string>
+    <string name="error_msg">An error has occured</string>
+    <string name="favourite_added">Added to Favorites</string>
+    <string name="favourite_updated">Updated Favorites Record</string>
+    <string name="title_activity_hourly_details">HourlyDetails</string>
+    <string name="favourites">Favourites</string>
+</resources>

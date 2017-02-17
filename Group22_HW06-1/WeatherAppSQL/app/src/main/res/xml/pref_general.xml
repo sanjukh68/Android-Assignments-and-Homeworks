@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/temp_unit_list"
+        android:entryValues="@array/temp_unit_values"
+        android:key="selected_temp_unit"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/tempUnit"
+        android:summary="@string/tempDescr"/>
+</PreferenceScreen>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tvs.weatherapp.Details">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/current_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView10"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:padding="2dp"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cityStateNames"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="125dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/weatherImage"
+            android:layout_height="125dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="24sp"
+            android:id="@+id/temp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:id="@+id/weatherCondition"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp">
+
+            <TextView
+                android:text="@string/feels_like"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView12"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/feelsLike"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+
+            <TextView
+                android:text="@string/humidity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView14"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/humidity"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="31dp">
+
+            <TextView
+                android:text="@string/dew_point"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView16"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/dewPoint"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="28dp">
+
+            <TextView
+                android:text="@string/pressure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView18"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pressure"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp">
+
+            <TextView
+                android:text="@string/clouds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView20"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/clouds"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp">
+
+            <TextView
+                android:text="@string/winds"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/winds"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

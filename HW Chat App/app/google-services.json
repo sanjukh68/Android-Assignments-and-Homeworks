@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "491497343181",
+    "firebase_url": "https://messaging-ba0ce.firebaseio.com",
+    "project_id": "messaging-ba0ce",
+    "storage_bucket": "messaging-ba0ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491497343181:android:8b4b19e40991ec68",
+        "android_client_info": {
+          "package_name": "com.example.tvs.messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491497343181-doduk8v48gbsgjcks2h5jc3aahrcmttm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9JyipadW9aAXTtxMncKAP63twAPlWtKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
